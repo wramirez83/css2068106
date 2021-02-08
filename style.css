@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+header{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto);
+}
+main{
+    display: grid;
+    height: 85vh;
+}
+main > section{
+    background-color: black;
+    grid-column: 1/ span 3;
+    
+}
+main > section > article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 30px;
+}
+main > section > article > div{
+    background-color: chocolate;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    padding: 20px;
+    text-align: center;
+}
+main > section > article > div:hover{
+    background-color: rgb(112, 63, 28);
+}
+main > aside {
+    grid-column: 4;
+    background-color: chocolate;
+}
+footer{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px;
+}
