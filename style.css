@@ -47,3 +47,9 @@ footer{
     grid-template-columns: auto;
     grid-template-rows: 50px;
 }
+.colorSpan{
+    background-color: blueviolet;
+    color: coral;
+    margin: 5px;
+    padding: 8px;
+}
